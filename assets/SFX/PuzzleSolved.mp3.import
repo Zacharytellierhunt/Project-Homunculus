@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/PuzzleSolved.mp3-3f2be60d3f47bd7d54a234de5932c827.mp3str"
+
+[deps]
+
+source_file="res://assets/SFX/PuzzleSolved.mp3"
+dest_files=[ "res://.import/PuzzleSolved.mp3-3f2be60d3f47bd7d54a234de5932c827.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

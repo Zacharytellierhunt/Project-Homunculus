@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/LandOnWorld.mp3-4f563b8ce70ab7da0faf7d72b4e48f9e.mp3str"
+
+[deps]
+
+source_file="res://assets/SFX/LandOnWorld.mp3"
+dest_files=[ "res://.import/LandOnWorld.mp3-4f563b8ce70ab7da0faf7d72b4e48f9e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

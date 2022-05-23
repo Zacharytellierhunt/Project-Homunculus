@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ChangeColour.mp3-1a3f28160944fc1884426c1bcdf67609.mp3str"
+
+[deps]
+
+source_file="res://assets/SFX/ChangeColour.mp3"
+dest_files=[ "res://.import/ChangeColour.mp3-1a3f28160944fc1884426c1bcdf67609.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
