@@ -24,7 +24,6 @@ speed = Vector2( 150, 1000 )
 verticalRange = 200
 
 [node name="EnemyNull" type="Sprite" parent="."]
-visible = false
 position = Vector2( 0, -52.27 )
 scale = Vector2( 3.24208, 3.24208 )
 texture = ExtResource( 6 )
@@ -42,6 +41,7 @@ scale = Vector2( 3.24208, 3.24208 )
 texture = ExtResource( 2 )
 
 [node name="EnemyBlue" type="Sprite" parent="."]
+visible = false
 position = Vector2( 0, -52.27 )
 scale = Vector2( 3.24208, 3.24208 )
 texture = ExtResource( 3 )
