@@ -13,6 +13,7 @@ export onready var anim_player: AnimationPlayer = $AnimationPlayer
 #calls all functions when the game is ready
 func _ready() -> void:
 	print(playerType)
+		
 
 
 func player_Colour_Change(colour: int ) -> void:
@@ -58,7 +59,7 @@ func _physics_process(_delta: float) -> void:
 	_velocity = calculate_move_velocity(_velocity, speed, direction, is_jump_interupted)
 	_velocity = move_and_slide(_velocity, FLOOR_NORMAL)
 	
-	if Input.is_action_just_released("Reset"):
+	if Input.is_action_just_pressed("Reset"):
 		get_tree().reload_current_scene()
 		return
 		

@@ -22,8 +22,7 @@ func _ready() -> void:
 	set_physics_process(false)
 	_velocity.x = -speed.x
 	print("enemy type: ", enemyType)
-	enemy_Colour_Change(enemyType)
-
+	
 
 #hitbox for detecting the player jumping on them, checks player colour 
 func _on_StompDetector_body_entered(body: PhysicsBody2D) -> void:
@@ -44,10 +43,10 @@ func _on_Area2D_body_entered(_body: CollisionShape2D) -> void:
 	get_tree().reload_current_scene()
 
 #checks if the enemy can be killed by the player
-func canKill (playerType: int, enemyType: int ) -> bool:
-	print("Player(", playerType, ") can kill: [", killingRules[playerType], "] \tEnemy is (", enemyType ,")")
-	print("\tCan kill? ", enemyType in killingRules[playerType])
-	return enemyType in killingRules[playerType]
+func canKill (_playerType: int, _enemyType: int ) -> bool:
+	print("Player(", _playerType, ") can kill: [", killingRules[_playerType], "] \tEnemy is (", _enemyType ,")")
+	print("\tCan kill? ", _enemyType in killingRules[_playerType])
+	return _enemyType in killingRules[_playerType]
 
 #plays the player anims for colour changing
 func playPlayerAnim(anim: int) -> void:
@@ -56,14 +55,17 @@ func playPlayerAnim(anim: int) -> void:
 
 #plays specific enemy animation based on ememyType colour
 func enemy_Colour_Change(colour: int ) -> void:
-	if colour == Colours.NULL_TYPE:
-		_enemyColourAnim("change_To_Null")
-	if colour == Colours.RED_TYPE:
-		_enemyColourAnim("change_To_Red")
-	if colour == Colours.YELLOW_TYPE:
-		_enemyColourAnim("change_To_Yellow")
-	if colour == Colours.BLUE_TYPE:
-		_enemyColourAnim("change_To_Blue")
+	if get_owner() != null:
+		if colour == Colours.NULL_TYPE:
+			_enemyColourAnim("change_To_Null")
+		if colour == Colours.RED_TYPE:
+			_enemyColourAnim("change_To_Red")
+		if colour == Colours.YELLOW_TYPE:
+			_enemyColourAnim("change_To_Yellow")
+		if colour == Colours.BLUE_TYPE:
+			_enemyColourAnim("change_To_Blue")
+	pass
+		
 
 
 #plays enemy colour animation based on the parameter
@@ -111,3 +113,4 @@ func _didPlayerJumpEnemy(body: PhysicsBody2D) -> bool:
 	print("\tplayerFeet_y = ", playerFeet_y)
 	print("\t\thitbox_y_min = ", hitbox_y_min, "\thitbox_y_max = ", hitbox_y_max)
 	return result
+

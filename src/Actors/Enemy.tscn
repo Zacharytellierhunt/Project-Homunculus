@@ -281,7 +281,7 @@ shape = SubResource( 6 )
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2( 0, -0.396824 )
-scale = Vector2( 0.947207, 0.947207 )
+scale = Vector2( 0.947, 0.722 )
 collision_layer = 2
 monitorable = false
 
