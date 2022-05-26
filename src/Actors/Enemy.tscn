@@ -62,7 +62,7 @@ collision_layer = 2
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StompDetector"]
 modulate = Color( 0, 0.180392, 1, 1 )
 position = Vector2( 0, -35.601 )
-scale = Vector2( 1.051, 1.02 )
+scale = Vector2( 0.848, 1.02 )
 shape = SubResource( 1 )
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="."]

@@ -48,8 +48,8 @@ func stompImpulse () -> void:
 	return
 
 
-func waitUntilEnemyDead() -> void:
-	get_node("../Enemy_Red").isEnemyDead()
+#func waitUntilEnemyDead() -> void:
+#	get_node("../Enemy_Red").isEnemyDead()
 
 
 #main function for controlling all physics events

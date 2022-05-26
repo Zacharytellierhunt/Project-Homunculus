@@ -1,8 +1,5 @@
 extends "res://src/Actors/Actor.gd"
 
-# TODO: make 4 enemy types with non-changeable colours that inherit from this class
-#		to make it easier to use the level editor
-
 const Colours = preload("res://src/Actors/Constants.gd").Colours
 
 const killingRules = preload("res://src/Utilities/Rules.gd").killingRules
