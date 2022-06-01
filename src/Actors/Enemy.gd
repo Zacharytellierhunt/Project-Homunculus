@@ -8,7 +8,7 @@ export var enemyType = 0
 
 export var verticalRange = 15
 
-export onready var anim_player: AnimationPlayer = $AnimationPlayer 
+#export onready var anim_player: AnimationPlayer = $AnimationPlayer 
 
 func _get_configuration_warning() -> String:
 	return "Null = 0, Red = 1, Yellow = 2, Blue = 3" if enemyType == Colours.NULL_TYPE else ""
@@ -51,23 +51,23 @@ func playPlayerAnim(anim: int) -> void:
 
 
 #plays specific enemy animation based on ememyType colour
-func enemy_Colour_Change(colour: int ) -> void:
-	if get_owner() != null:
-		if colour == Colours.NULL_TYPE:
-			_enemyColourAnim("change_To_Null")
-		if colour == Colours.RED_TYPE:
-			_enemyColourAnim("change_To_Red")
-		if colour == Colours.YELLOW_TYPE:
-			_enemyColourAnim("change_To_Yellow")
-		if colour == Colours.BLUE_TYPE:
-			_enemyColourAnim("change_To_Blue")
-	pass
+#func enemy_Colour_Change(colour: int ) -> void:
+#	if get_owner() != null:
+#		if colour == Colours.NULL_TYPE:
+#			_enemyColourAnim("change_To_Null")
+#		if colour == Colours.RED_TYPE:
+#			_enemyColourAnim("change_To_Red")
+#		if colour == Colours.YELLOW_TYPE:
+#			_enemyColourAnim("change_To_Yellow")
+#		if colour == Colours.BLUE_TYPE:
+#			_enemyColourAnim("change_To_Blue")
+#	pass
 		
 
 
 #plays enemy colour animation based on the parameter
-func _enemyColourAnim(anim: String) -> void:
-	anim_player.play(anim)
+#func _enemyColourAnim(anim: String) -> void:
+#	anim_player.play(anim)
 
 
 #gets Player stompImpulse function

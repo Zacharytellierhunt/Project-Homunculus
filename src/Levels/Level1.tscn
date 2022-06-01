@@ -65,7 +65,6 @@ speed = Vector2( 450, 1100 )
 [node name="Enemy4" parent="." instance=ExtResource( 1 )]
 position = Vector2( 2054.86, 448.471 )
 enemyType = 1
-verticalRange = 15
 
 [node name="EnemyNull" parent="Enemy4" index="0"]
 visible = false
@@ -79,7 +78,6 @@ position = Vector2( 25.8995, -32.9373 )
 [node name="Enemy9" parent="." instance=ExtResource( 1 )]
 position = Vector2( 3191.65, 456.891 )
 enemyType = 1
-verticalRange = 15
 
 [node name="EnemyNull" parent="Enemy9" index="0"]
 visible = false
@@ -93,7 +91,6 @@ position = Vector2( 25.8995, -32.9373 )
 [node name="Enemy5" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1950.41, 448.112 )
 enemyType = 2
-verticalRange = 15
 
 [node name="EnemyNull" parent="Enemy5" index="0"]
 visible = false
@@ -104,7 +101,6 @@ visible = true
 [node name="Enemy3" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1011.11, 457.643 )
 enemyType = 3
-verticalRange = 15
 
 [node name="EnemyNull" parent="Enemy3" index="0"]
 visible = false
@@ -115,7 +111,6 @@ visible = true
 [node name="Enemy7" parent="." instance=ExtResource( 1 )]
 position = Vector2( 3271.5, 456.693 )
 enemyType = 3
-verticalRange = 15
 
 [node name="EnemyNull" parent="Enemy7" index="0"]
 visible = false
