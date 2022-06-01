@@ -9,6 +9,7 @@ export var next_scene: PackedScene
 
 func _on_body_entered(_body: PhysicsBody2D) -> void:
 	teleport()
+	return
 
 
 func _get_configuration_warning() -> String:
