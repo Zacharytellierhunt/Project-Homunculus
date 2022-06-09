@@ -8,7 +8,9 @@ export var next_scene: PackedScene
 
 
 func _on_body_entered(_body: PhysicsBody2D) -> void:
-	teleport()
+	#teleport()
+	get_node("../Player/TimerLabel")._timer_off()
+	get_node("../Player/TimerLabel")._save_time()
 	return
 
 

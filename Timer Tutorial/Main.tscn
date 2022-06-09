@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://blacksquare.png" type="Texture" id=1]
+[ext_resource path="res://Label_Timer.gd" type="Script" id=2]
+
+[node name="Main" type="Node"]
+
+[node name="Blacksquare" type="Sprite" parent="."]
+position = Vector2( 91.25, 90 )
+scale = Vector2( 0.406951, 0.452261 )
+texture = ExtResource( 1 )
+
+[node name="Label_Timer" type="Label" parent="."]
+margin_left = 1.0
+margin_top = 10.0
+margin_right = 187.0
+margin_bottom = 51.0
+text = "\"00 : 00 : 000\""
+align = 1
+valign = 1
+script = ExtResource( 2 )
+
+[node name="Button_Start" type="Button" parent="."]
+margin_left = 65.0
+margin_top = 59.0
+margin_right = 117.0
+margin_bottom = 79.0
+text = "Start"
+
+[node name="Button_Stop" type="Button" parent="."]
+margin_left = 65.0
+margin_top = 90.0
+margin_right = 119.0
+margin_bottom = 110.0
+text = "Stop"
+
+[node name="Button_Reset" type="Button" parent="."]
+margin_left = 65.0
+margin_top = 123.0
+margin_right = 119.0
+margin_bottom = 143.0
+text = "Reset"
+
+[connection signal="pressed" from="Button_Start" to="Label_Timer" method="_on_Button_Start_pressed"]
+[connection signal="pressed" from="Button_Stop" to="Label_Timer" method="_on_Button_Stop_pressed"]
+[connection signal="pressed" from="Button_Reset" to="Label_Timer" method="_on_Button_Reset_pressed"]
