@@ -43,7 +43,7 @@ position = Vector2( -26, 39 )
 layer = -100
 
 [node name="background2" type="Sprite" parent="CanvasLayer"]
-position = Vector2( 569.873, 298.854 )
+position = Vector2( 994, 401 )
 scale = Vector2( 5.3577, 5.3577 )
 texture = ExtResource( 10 )
 
@@ -122,7 +122,7 @@ visible = true
 position = Vector2( 3519.78, 399.858 )
 
 [node name="Portal2D" parent="." instance=ExtResource( 2 )]
-position = Vector2( 3812, 481 )
+position = Vector2( 3353, 489 )
 next_scene = ExtResource( 9 )
 
 [node name="DoorYellow" parent="." instance=ExtResource( 4 )]

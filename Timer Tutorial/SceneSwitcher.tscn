@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://SaveTutorial1.tscn" type="PackedScene" id=1]
+
+[node name="SceneSwitcher" type="Node"]
+
+[node name="First Scene" parent="." instance=ExtResource( 1 )]
+level_name = "first level"

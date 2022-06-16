@@ -121,6 +121,7 @@ position = Vector2( 1476, 241 )
 
 [node name="Portal2D" parent="." instance=ExtResource( 6 )]
 position = Vector2( 1496, 571 )
+next_scene = null
 
 [editable path="enemyred1"]
 [editable path="enemyyellow1"]

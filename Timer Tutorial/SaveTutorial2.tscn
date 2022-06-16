@@ -1,0 +1,42 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Level.gd" type="Script" id=1]
+
+[node name="Second Scene" type="CanvasLayer"]
+script = ExtResource( 1 )
+level_name = "Second Level"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 321.0
+margin_bottom = 238.0
+color = Color( 0.160784, 0, 0, 1 )
+
+[node name="LabelFirstLevel" type="Label" parent="."]
+margin_left = 115.0
+margin_top = 21.0
+margin_right = 155.0
+margin_bottom = 35.0
+text = "First Level"
+
+[node name="LabelNumberofClicks" type="Label" parent="."]
+margin_left = 97.0
+margin_top = 123.0
+margin_right = 206.0
+margin_bottom = 137.0
+text = "Number of Clicks"
+
+[node name="ButtonChangeScene" type="Button" parent="."]
+margin_left = 99.0
+margin_top = 66.0
+margin_right = 199.0
+margin_bottom = 86.0
+text = "Change Scene"
+
+[node name="ButtonClickMe" type="Button" parent="."]
+margin_left = 112.0
+margin_top = 159.0
+margin_right = 181.0
+margin_bottom = 179.0
+text = "Click Me!"
+
+[connection signal="pressed" from="ButtonChangeScene" to="." method="_on_ButtonChangeScene_pressed"]
