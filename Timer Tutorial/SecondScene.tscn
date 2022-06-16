@@ -16,7 +16,7 @@ margin_left = 115.0
 margin_top = 21.0
 margin_right = 155.0
 margin_bottom = 35.0
-text = "First Level"
+text = "Second Level"
 
 [node name="LabelNumberofClicks" type="Label" parent="."]
 margin_left = 97.0
