@@ -1,0 +1,58 @@
+{
+  "best games": {
+    "spot_1": {
+      "duration": 0,
+      "num_attempts": 0
+    },
+    "spot_2": {
+      "duration": 0,
+      "num_attempts": 0
+    },
+    "spot_3": {
+      "duration": 0,
+      "num_attempts": 0
+    }
+  },
+  "top_scenes": {
+    "scene_1": {
+      "duration": 0,
+      "num_attempts": 0
+    },
+    "scene_2": {
+      "duration": 0,
+      "num_attempts": 0
+    },
+    "scene_3": {
+      "duration": 0,
+      "num_attempts": 0
+    },
+    "scene_4": {
+      "duration": 0,
+      "num_attempts": 0
+    },
+    "scene_5": {
+      "duration": 0,
+      "num_attempts": 0
+    },
+    "scene_6": {
+      "duration": 0,
+      "num_attempts": 0
+    },
+    "scene_7": {
+      "duration": 0,
+      "num_attempts": 0
+    },
+    "scene_8": {
+      "duration": 0,
+      "num_attempts": 0
+    },
+    "scene_9": {
+      "duration": 0,
+      "num_attempts": 0
+    },
+    "scene_10": {
+      "duration": 0,
+      "num_attempts": 0
+    }
+  }
+}

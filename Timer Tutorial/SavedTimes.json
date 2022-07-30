@@ -1,0 +1,13 @@
+{
+  "game_id": 0,
+  "times": {
+    "savedtime_1": {
+      "duration": 0,
+      "num_attempts": 0
+    },
+    "savedtime_2": {
+      "duration": 0,
+      "num_attempts": 0
+    }
+  }
+}

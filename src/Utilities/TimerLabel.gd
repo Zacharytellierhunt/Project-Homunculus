@@ -23,6 +23,7 @@ func _process(delta):
 
 func _timer_off ():
 	timer_on = false
+	print(savedTime)
 	pass
 	
 func _save_time ():
